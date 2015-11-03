@@ -16,7 +16,7 @@ public class ClientExample {
 		Response response  = target.request().get();
 
 
-		System.out.println(response.getStatus());
+		System.out.println("status:" + response.getStatus());
 		System.out.println(response.readEntity(String.class));
 	}
 }

@@ -1,3 +1,10 @@
 # jersey-client-helloworld
-jersey client example
+
+Running the Example
+------------------
+
+Run the example as follows:
+
+    mvn jexec:java
+
 
